@@ -32,5 +32,20 @@ body {
 }
 
 .contact_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding-left: 20px;
+}
+
+.contact_text p {
+    margin: 0;
+}
+
+.contact_name {
+    font-size: larger;
+}
+
+.contact_status {
+    font-size: large;
 }

@@ -8,12 +8,12 @@ body {
 }
 
 .contact_section {
-    background-color: blue;
+    background-color: darkkhaki;
     flex-basis: 20%;
 }
 
 .main_section {
-    background-color: orange;
+    background-color: darkgray;
     flex-basis: 80%;
     min-height: 100vh;
 }

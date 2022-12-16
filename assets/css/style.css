@@ -49,3 +49,36 @@ body {
 .contact_status {
     font-size: large;
 }
+
+.main_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ms_start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ms_start img {
+    width: 300px;
+    border-radius: 5%;
+}
+
+.ms_title {
+    font-size: xx-large;
+    margin-bottom: 0;
+}
+
+.ms_text {
+    width: 500px;
+    text-align: center;
+}
+
+.ms_explanation {
+    font-size: larger;
+    margin-top: 0;
+}

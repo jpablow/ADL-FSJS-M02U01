@@ -8,12 +8,15 @@ body {
 }
 
 .contact_section {
-    background-color: darkkhaki;
+    background-color: white;
     flex-basis: 20%;
+    border-right: 1px;
+    border-right-style: solid;
+    border-right-color: gray;
 }
 
 .main_section {
-    background-color: darkgray;
+    background-color: whitesmoke;
     flex-basis: 80%;
     min-height: 100vh;
 }
@@ -23,6 +26,9 @@ body {
     padding-left: 30px;
     align-items: center;
     justify-content: stretch;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color:  #E8EBE4;
 }
 
 .contact_content img {

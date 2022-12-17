@@ -11,7 +11,7 @@ body {
 .contact_section {
     background-color: white;
     flex-basis: 22%;
-    border-right: 1px solid gray;
+    border-right: 1px solid #E8EBE4;
 }
 
 .main_section {
@@ -20,7 +20,57 @@ body {
     min-height: 100vh;
 }
 
-.contact_button {
+.user_content {
+    display: flex;
+    padding: 15px 20px 15px 30px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #E8EBE4;
+}
+
+.user_data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_data img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user_text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.7em;
+}
+
+.user_text p {
+    margin: 0;
+    align-items: stretch;
+}
+
+.user_name {
+    font-size: medium;
+}
+
+.user_status {
+    font-size: small;
+    color: #BEC1BB;
+    padding-top: 0.2em;
+}
+
+.icons {
+    width: 3.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons i {
+    color: #BEC1BB;
+}
+
+.new_chat {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,7 +114,7 @@ body {
 .contact_text {
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
+    padding-left: 1em;
 }
 
 .contact_text p {
@@ -98,19 +148,21 @@ body {
     border-radius: 5%;
 }
 
+.ms_text {
+    width: 550px;
+    text-align: center;
+    line-height: 1.6;
+}
+
 .ms_title {
     font-size: 48px;
     margin-bottom: 0;
     margin-top: 0.5em;
 }
 
-.ms_text {
-    width: 530px;
-    text-align: center;
-    line-height: 1.6;
-}
-
 .ms_explanation {
+    font-family: 'Open Sans', sans-serif;
     font-size: large;
+    font-weight: 400;
     margin: 0;
 }

@@ -20,6 +20,33 @@ body {
     min-height: 100vh;
 }
 
+.contact_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #E8EBE4;
+}
+
+.button {
+    background-color: #A491D2;
+    border: none;
+    color: white;
+    padding: 1em 3em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 3em;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #CDC3E6;    
+}
+
+.button:focus {
+    background-color: #BEC1BB;
+}
+
 .contact_content {
     display: flex;
     padding: 15px 0px 15px 30px;
